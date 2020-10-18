@@ -18,4 +18,4 @@ Tensor<float> t2 = t1.reshape({ 500 , 100 });
 ```c++
 Tensor<float> t3 = t1(3, 4);
 ```
-The Tensor contains a shared pointer inside the class. If subarray modifies, original will be modified too 
+The Tensor contains a shared pointer inside the class. If a subarray modifies, an original array will be modified too.
