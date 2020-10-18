@@ -6,7 +6,7 @@ A multidimensional array can be initialized as
 ```c++
 Tensor<float> t1({ 10, 50, 100});
 ```
-It is mean that `t1` has three dimensions 10x50x100.
+It is mean that `t1` has three dimensions with 10x50x100.
 
 There are two operations:
 1) reshaping
@@ -16,6 +16,6 @@ Tensor<float> t2 = t1.reshape({ 500 , 100 });
 ```
 2) extracting subarray
 ```c++
-Tensor<float> t3 = t(3, 4);
+Tensor<float> t3 = t1(3, 4);
 ```
 The Tensor contains a shared pointer inside the class. If subarray modifies, original will be modified too 
