@@ -1,6 +1,6 @@
 # TensorExercise
 
-This repo demonstrates how can be implemented a small-sized multidimensional array. The idea is to keep a multidimensional array as a one-dimensional sequential array and operate with dimensions.
+This repo demonstrates how can be implemented a multidimensional array. The idea is to keep a multidimensional array as a one-dimensional sequential array and operate with dimensions.
  
 A multidimensional array can be initialized as
 ```c++
